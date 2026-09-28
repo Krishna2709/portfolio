@@ -16,6 +16,6 @@ The site uses relative links and works at a project repository URL. GitHub Pages
 
 ## Content notes
 
-The CV copy draws on Krishna's [public Notion profile](https://sharp-orbit-352.notion.site/Hi-there-I-am-Krishna-Kankipati-265320b3ca8d81618759cb94e03307bf), [LinkedIn](https://www.linkedin.com/in/krishnacse/), [GitHub](https://github.com/Krishna2709), the existing Wix page, and copy supplied directly by Krishna in September 2026.
+The CV copy draws on Krishna's [public Notion profile](https://sharp-orbit-352.notion.site/Hi-there-I-am-Krishna-Kankipati-265320b3ca8d81618759cb94e03307bf), [LinkedIn](https://www.linkedin.com/in/krishnacse/), [GitHub](https://github.com/Krishna2709), the existing Wix page, and copy supplied directly by Krishna in September 2026. The current headshot was supplied directly by Krishna and exported for the web without embedded camera or location metadata.
 
 The homepage case studies draw on the local `apex-7` project documentation. SpendRule is described at a public architectural level, without internal counts or customer financial data. Chronoscope is labeled an active exploration. SafeScreen's deepfake detector is framed as an uncertain secondary signal; its NPU port is not claimed as complete. ARIA's second-place award is identified only as a prize track because the specific track has not been independently confirmed. The public [PyTorch winners recap](https://pytorch.org/blog/building-the-future-of-on-device-ai-at-the-executorch-hackathon/) confirms SafeScreen's first place.
