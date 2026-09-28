@@ -1,6 +1,6 @@
 # Krishna Kankipati — personal site
 
-A lightweight, two-page personal site, independent of Wix. It uses plain HTML and CSS, with no build step or runtime dependencies.
+A CV-style personal site, independent of Wix. It uses plain HTML and CSS, with no build step or runtime dependencies. The previous work page redirects to the projects section of the CV so existing links continue to work.
 
 ## Preview locally
 
@@ -22,4 +22,4 @@ The GoDaddy domain can be connected later. Do not change DNS until the new site 
 
 ## Content notes
 
-The copy is based on Krishna's [public Notion profile](https://sharp-orbit-352.notion.site/Hi-there-I-am-Krishna-Kankipati-265320b3ca8d81618759cb94e03307bf), [LinkedIn profile](https://www.linkedin.com/in/krishnacse/), and [existing Wix page](https://www.dataoilst.com/krishna), accessed September 2026. Work in progress is marked as such. The portrait was downloaded from the existing Wix page. Review all project descriptions, dates, and public client names before publishing.
+The copy is based on Krishna's [public Notion profile](https://sharp-orbit-352.notion.site/Hi-there-I-am-Krishna-Kankipati-265320b3ca8d81618759cb94e03307bf), [LinkedIn profile](https://www.linkedin.com/in/krishnacse/), [Twine profile](https://www.twine.net/krishnamle07), and [existing Wix page](https://www.dataoilst.com/krishna), accessed September 2026. The portrait was downloaded from the Wix page. Role dates follow the Notion profile where sources disagree. Review all descriptions, metrics, dates, and public client names before publishing a new revision.
