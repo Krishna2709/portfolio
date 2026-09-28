@@ -1,29 +1,21 @@
 # Krishna Kankipati — personal site
 
-A CV-style personal site, independent of Wix. It uses plain HTML and CSS, with no build step or runtime dependencies. The previous work page redirects to the projects section of the CV so existing links continue to work.
+A narrative portfolio with a separate detailed CV, independent of Wix. Plain HTML and CSS; no build step or runtime dependencies. `index.html` is the homepage, `cv.html` is the detailed CV, and `work.html` redirects old project links to the selected work section.
 
 ## Preview locally
-
-From this directory, run:
 
 ```sh
 python3 -m http.server 8000
 ```
 
-Then open `http://localhost:8000`.
+Open `http://localhost:8000`.
 
 ## Publish on GitHub Pages
 
-1. Create a GitHub repository and push the contents of this folder to its default branch.
-2. In the repository, open **Settings → Pages**. Set the source to **Deploy from a branch**, select the default branch, and choose **/(root)**.
-3. GitHub will provide a `github.io` URL. The site uses relative links, so it also works from a project repository URL.
-
-The GoDaddy domain can be connected later. Do not change DNS until the new site is reviewed and the desired domain or subdomain is chosen.
+The site uses relative links and works at a project repository URL. GitHub Pages should deploy from the repository's default branch and root directory. The GoDaddy domain can be connected after review.
 
 ## Content notes
 
-The copy is based on Krishna's [public Notion profile](https://sharp-orbit-352.notion.site/Hi-there-I-am-Krishna-Kankipati-265320b3ca8d81618759cb94e03307bf), [LinkedIn profile](https://www.linkedin.com/in/krishnacse/), [Twine profile](https://www.twine.net/krishnamle07), [GitHub repositories](https://github.com/Krishna2709?tab=repositories), and [existing Wix page](https://www.dataoilst.com/krishna), accessed September 2026. The portrait was downloaded from the Wix page. Role dates follow the Notion profile where sources disagree.
+The CV copy draws on Krishna's [public Notion profile](https://sharp-orbit-352.notion.site/Hi-there-I-am-Krishna-Kankipati-265320b3ca8d81618759cb94e03307bf), [LinkedIn](https://www.linkedin.com/in/krishnacse/), [GitHub](https://github.com/Krishna2709), the existing Wix page, and copy supplied directly by Krishna in September 2026.
 
-The [PyTorch winners recap](https://pytorch.org/blog/building-the-future-of-on-device-ai-at-the-executorch-hackathon/) confirms SafeScreen AI's first place. The [Lablab team page](https://lablab.ai/ai-hackathons/ai-trading-agents/0truxt) confirms Krishna's participation in ARIA; Krishna reported that ARIA placed second in a prize track. The public community-vote page does not identify that judged track, so the site leaves its name unspecified. Review descriptions, metrics, dates, client names, and award details before future revisions.
-
-The SpendRule profile, experience, and case study draw on copy supplied directly by Krishna in September 2026. The public version emphasizes architecture, evidence handling, tenant isolation, reliability, and evaluation while omitting internal code counts, workflow counts, incident timings, and customer financial figures.
+The homepage case studies draw on the local `apex-7` project documentation. SpendRule is described at a public architectural level, without internal counts or customer financial data. Chronoscope is labeled an active exploration. SafeScreen's deepfake detector is framed as an uncertain secondary signal; its NPU port is not claimed as complete. ARIA's second-place award is identified only as a prize track because the specific track has not been independently confirmed. The public [PyTorch winners recap](https://pytorch.org/blog/building-the-future-of-on-device-ai-at-the-executorch-hackathon/) confirms SafeScreen's first place.
