@@ -1,5 +1,7 @@
 # Krishna Kankipati — personal site
 
+[Live portfolio](https://krishna2709.github.io/portfolio/) · [Full CV](https://krishna2709.github.io/portfolio/cv.html)
+
 An architecture-dossier portfolio with a separate detailed work record, independent of Wix. Plain HTML and CSS; no build step or runtime dependencies. `index.html` contains four flagship system dossiers, `cv.html` holds the broader project inventory and detailed CV, and `work.html` redirects old project links to the flagship systems section.
 
 ## Preview locally
@@ -13,6 +15,14 @@ Open `http://localhost:8000`.
 ## Publish on GitHub Pages
 
 The site uses relative links and works at a project repository URL. GitHub Pages should deploy from the repository's default branch and root directory. The GoDaddy domain can be connected after review.
+
+## Search visibility
+
+The canonical site is `https://krishna2709.github.io/portfolio/`. The homepage and CV have distinct titles, descriptions, canonical URLs, and social sharing metadata. The homepage also identifies Krishna and his other public profiles with `ProfilePage` structured data. `sitemap.xml` lists the two pages intended for search results; `work.html` is only an old-link redirect.
+
+To request Google indexing, add `https://krishna2709.github.io/portfolio/` as a **URL-prefix property** in [Google Search Console](https://search.google.com/search-console). Use Google's HTML meta tag on the homepage or place its verification file at the exact URL Search Console specifies, then complete verification. Submit `https://krishna2709.github.io/portfolio/sitemap.xml`, then inspect and request indexing for the homepage and `cv.html`. Search Console is also where Google reports crawl and indexing status. Crawling and inclusion are Google's decisions and can take time.
+
+This is a GitHub Pages project site under `/portfolio/`; a `robots.txt` file here would not be the effective host-root robots file. The current `github.io` host returns no robots restrictions, and the pages do not send `noindex`. When the DATAOIL St. domain moves to this site, update the canonicals, sitemap, and Search Console property together.
 
 ## Content notes
 
