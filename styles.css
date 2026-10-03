@@ -135,7 +135,7 @@ p { max-width: 76ch; }
 .location { margin: 0; color: var(--muted); font: 12px var(--mono); }
 .cv-identity { display: flex; flex-direction: column; gap: 12px; align-items: stretch; }
 .portrait { display: block; width: 100%; height: 175px; object-fit: cover; object-position: center 30%; }
-.print-button { border: 1px solid var(--ink); background: transparent; color: var(--ink); padding: 8px; font: 700 12px var(--sans); cursor: pointer; }
+.print-button { border: 1px solid var(--ink); background: transparent; color: var(--ink); padding: 8px; font: 700 12px var(--sans); cursor: pointer; text-align: center; text-decoration: none; }
 .print-button:hover { background: var(--ink); color: white; }
 .contact-links { display: flex; gap: 22px; flex-wrap: wrap; grid-column: 1 / -1; font-size: 13px; font-weight: 700; }
 .cv-section { display: grid; grid-template-columns: 195px minmax(0, 1fr); gap: 50px; padding: 33px 0; border-bottom: 1px solid var(--rule); scroll-margin-top: 20px; }
@@ -299,6 +299,6 @@ p { max-width: 76ch; }
   .inventory-row > span, .inventory-row small { font-size: 7pt; }
   .section-marker, .entry time, .entry-type, .inventory-group > h3 { font-size: 8pt; }
   .skill-list > div { padding: 4px 0; }
-  a { color: #111; text-decoration: none; }
+  a { color: #111; text-decoration: underline; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

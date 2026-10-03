@@ -12,6 +12,18 @@ python3 -m http.server 8000
 
 Open `http://localhost:8000`.
 
+## Downloadable resume
+
+The CV's Download PDF link serves `assets/krishna-kankipati-resume.pdf` directly. Regenerate it whenever CV content or print styling changes:
+
+```sh
+python -m pip install playwright pypdf
+python -m playwright install chromium
+python tools/export_resume.py
+```
+
+The exporter uses the CV's print layout, resolves project links against its public canonical URL, and checks that every visible link has a matching PDF annotation. Commit the regenerated PDF with the corresponding HTML or CSS changes.
+
 ## Publish on GitHub Pages
 
 The site uses relative links and works at a project repository URL. GitHub Pages should deploy from the repository's default branch and root directory. The GoDaddy domain can be connected after review.
@@ -26,7 +38,7 @@ This is a GitHub Pages project site under `/portfolio/`; a `robots.txt` file her
 
 ## Content notes
 
-The CV copy draws on Krishna's [public Notion profile](https://sharp-orbit-352.notion.site/Hi-there-I-am-Krishna-Kankipati-265320b3ca8d81618759cb94e03307bf), [LinkedIn](https://www.linkedin.com/in/krishnacse/), [GitHub](https://github.com/Krishna2709), the existing Wix page, and copy supplied directly by Krishna in September 2026. The current headshot was supplied directly by Krishna and exported for the web without embedded camera or location metadata.
+The CV copy draws on Krishna's [LinkedIn](https://www.linkedin.com/in/krishnacse/), [GitHub](https://github.com/Krishna2709), the existing Wix page, and copy supplied directly by Krishna in September 2026. The current headshot was supplied directly by Krishna and exported for the web without embedded camera or location metadata.
 
 The homepage case studies draw on the local `apex-7` project documentation and the separate local `108ai` code folder. The full record repeats the four flagship systems with matching status and architecture claims; Chronoscope is a research note on the homepage and an active exploration in the CV inventory. SpendRule is described at a public architectural level, without internal counts or customer financial data. Chronoscope is labeled an active exploration. SafeScreen's deepfake detector is framed as an uncertain secondary signal; its NPU port is not claimed as complete. ARIA's second-place award is identified only as a prize track because the specific track has not been independently confirmed. The public [PyTorch winners recap](https://pytorch.org/blog/building-the-future-of-on-device-ai-at-the-executorch-hackathon/) confirms SafeScreen's first place.
 
